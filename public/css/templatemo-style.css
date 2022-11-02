@@ -322,7 +322,7 @@ thead {
   margin-bottom: 20px;
 }
 .form-control {
-  padding: 19px 18px;
+  padding: 12px 18px;
   border-radius: 0;
   height: 50px;
 }
@@ -454,6 +454,7 @@ input[type="checkbox"]:focus {
 .tm-product-name {
   font-size: 0.95rem;
   font-weight: 600;
+  color: white;
 }
 .tm-product-delete-icon {
   font-size: 1.1rem;
@@ -582,6 +583,10 @@ input[type="checkbox"]:focus {
 .tm-footer-link:focus {
   color: #aacbea;
 }
+.nhay-dong:hover{
+  background-color: #415a70;
+  color: white;
+}
 .btn-login{
   width: 45%;
   margin: 8px 0px 0px;
@@ -595,6 +600,7 @@ input[type="checkbox"]:focus {
   margin-bottom: 10px;
   float: right ;
 }
+
 .bang-account{
   height: auto;
   margin-top: 3px;
@@ -612,6 +618,14 @@ input[type="checkbox"]:focus {
 .password{
   margin-top: -25px;
 }
+.avatar{
+  border: rgb(148, 14, 226) 2px solid;
+  width: 45px;
+  height: 45px;
+  margin-top: -18px;
+  border-radius: 50%;
+}
+
 @media (min-width: 1200px) {
   .navbar-expand-xl .navbar-nav .nav-link {
     padding-left: 28px;
